@@ -1,0 +1,44 @@
+{
+    "name": "random-flickr-image",
+    "version": "1.0.0",
+    "description": "A React component that shows a random image from flicker every X seconds using the flickr api",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/barretodaniel/random-flickr-image.git"
+    },
+    "keywords": [
+        "flickr",
+        "react"
+    ],
+    "author": "Daniel Barreto",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/barretodaniel/random-flickr-image/issues"
+    },
+    "homepage": "https://github.com/barretodaniel/random-flickr-image#readme",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "@storybook/addon-actions": "^5.1.9",
+        "@storybook/addon-console": "^1.2.1",
+        "@storybook/addon-links": "^5.1.9",
+        "@storybook/addon-viewport": "^5.1.9",
+        "@storybook/addons": "^5.1.9",
+        "@storybook/react": "^5.1.9",
+        "babel-jest": "^24.8.0",
+        "babel-loader": "^8.0.6",
+        "jest": "^24.8.0"
+    }
+}
