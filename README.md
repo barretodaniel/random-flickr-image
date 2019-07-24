@@ -61,5 +61,4 @@ The project uses Jest to run the associated tests:
 
 ```
 npm test
-
 ```
