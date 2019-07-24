@@ -1,12 +1,12 @@
 # RandomFlickrImage
 
-A React component that shows a random image form flickr every X seconds using the [flicker api](https://www.flickr.com/services/api/).
+A React component that shows a random image from flickr every X seconds using the [flicker api](https://www.flickr.com/services/api/).
 
 ## Setup
 
 Make sure you have the latest versions of Node.js and npm installed.
 
-Install all the the dependencies:
+Install all the the dependencies with npm:
 
 ```
 npm install
@@ -46,7 +46,7 @@ The component can also be passed a `size` prop which correpsonds to the sizes al
 <RandomFlickrImage size="q" />
 ```
 
-To facilitate style overrides, the component will pass down the `className` and `style` prop to the underlying `img` tag.
+To facilitate style overrides, the component will pass down the `className` and `style` props to the underlying `img` tag.
 
 ```jsx
 <RandomFlickrImage
