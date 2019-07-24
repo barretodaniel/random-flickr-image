@@ -4,6 +4,7 @@
     "description": "A React component that shows a random image from flicker every X seconds using the flickr api",
     "main": "src/index.js",
     "scripts": {
+        "start": "npm run storybook",
         "test": "jest",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook"

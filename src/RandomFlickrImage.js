@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getRecentPhotos } from './api';
-import { buildImageURL, getRandomIndex } from './utils';
+import { buildImageUrl, getRandomIndex } from './utils';
 
 const ONE_SECOND = 1000;
 export const Sizes = {
